@@ -28,6 +28,10 @@ a {
     background-color: #0D0D0D !important;
 }
 
+.bg-light-black {
+    background-color: #242424 !important;
+}
+
 .login-btn-black-bg {
     background: #000;
     padding: 0.375rem 2.75rem 0.375rem 2.75rem;
@@ -274,3 +278,122 @@ a {
     font-size: 25px;
     font-weight: 700;
 }
+
+.fuck-yourself-modal .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    outline: 0;
+}
+
+.fuck-yourself-modal h1 {
+    font-size: 65px;
+}
+
+.join-close-icon svg {
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    z-index: 11;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.join-close-icon svg:hover {
+   color: #A93225;
+}
+
+body.modal-open .supreme-container{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+    height: 600px;
+}
+
+.profile-card-top-section {
+    background: #fff;
+    height: auto;
+    position: relative;
+    width: 1150px;
+    margin: auto;
+    bottom: 50px;
+    padding: 15px;
+}
+
+.profile-img-src {
+    
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #fff;
+}
+
+.user-profile-avatar {
+    position: relative;
+    bottom: 90px;
+}
+
+.user-top-left-side-widget h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.user-top-left-side-widget h5 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.user-top-left-side-widget a {
+    color: #A93225;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.user-top-left-side-widget p {
+    margin-top: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.user-top-left-side-widget .user-top-left-side-widget-btn {
+    background: #A93225;
+    border: 1px solid #A93225;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+}
+
+.user-top-left-side-widget .user-top-left-side-widget-btn:hover {
+    background: #fff;
+    border: 1px solid #A93225;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: #A93225;;
+}
+
