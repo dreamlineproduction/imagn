@@ -308,10 +308,10 @@ a {
 }
 
 .join-close-icon svg:hover {
-   color: #A93225;
+    color: #A93225;
 }
 
-body.modal-open .supreme-container{
+body.modal-open .supreme-container {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
@@ -331,18 +331,21 @@ body.modal-open .supreme-container{
     height: 600px;
 }
 
+.user-top-information {
+    margin-top: -170px;
+}
+
 .profile-card-top-section {
     background: #fff;
     height: auto;
     position: relative;
-    width: 1150px;
+    width: 1320px;
     margin: auto;
     bottom: 50px;
     padding: 15px;
 }
 
 .profile-img-src {
-    
     height: 190px;
     width: 190px;
     border-radius: 50%;
@@ -394,6 +397,137 @@ body.modal-open .supreme-container{
     border: 1px solid #A93225;
     border-radius: 30px;
     padding: 10px 20px 10px 20px;
-    color: #A93225;;
+    color: #A93225;
 }
 
+.user-top-center-side-widget {
+    margin-top: 93px;
+}
+
+.user-top-center-side-widget h3 {
+    color: #A93225;
+    font-weight: 800;
+}
+
+.user-hobby-section {
+    margin-top: 70px;
+}
+
+.user-hobby-section p {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-consciousness h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.my-consciousness-menu-top ul {
+    margin-bottom: 0;
+    padding-inline-start: 0;
+}
+
+.my-consciousness-menu-top li {
+    list-style-type: none;
+    display: inline-flex;
+    text-transform: uppercase;
+    color: #ACACAC;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.my-consciousness-menu-top .selected {
+    color: #fff;
+    font-weight: 800;
+}
+
+.my-consciousness-menu-top .wrapper {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 11px;
+    height: auto;
+}
+
+.list {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-width: 3000px;
+    margin-left: 12px;
+    margin-top: 0px;
+}
+
+.list li {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    cursor: grab;
+    cursor: -webkit-grab;
+    color: #efefef;
+    vertical-align: middle;
+}
+
+.my-consciousness-menu-top a {
+    color: #ACACAC;
+}
+
+.scroller {
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.scroller-right {
+    float: right;
+}
+
+.scroller-left {
+    float: left;
+}
+
+.my-consciousness-left-section h1 {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.my-consciousness-left-section .border-bottom {
+    border-bottom: 1px solid #4B505A !important;
+}
+
+.my-consciousness-left-section .border-top {
+    border-top: 1px solid #4B505A !important;
+}
+
+.my-consciousness-left-section {
+    padding: 2rem !important;
+}
+
+.widget-1 {
+    margin-top: -35px;
+}
+
+.widget-2,
+.widget-3 {
+    margin-top: 7rem !important;
+}
+
+.edit-widget-btn {
+    display: inline-flex;
+    float: right;
+    top: -55px;
+    position: relative;
+}
+
+.edit-widget-btn a {
+    color: #fff;
+}
+
+.edit-widget-btn a:hover {
+    color: #A93225;
+}
