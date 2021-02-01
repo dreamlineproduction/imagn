@@ -151,7 +151,8 @@
                                     <h1 class="border-bottom">My Identity Inspiration </h1>
                                 </div>
                                 <div class="edit-widget-btn">
-                                    <a href="#"> <span><i class="far fa-edit"></i></span> </a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#widget-title"> <span><i
+                                                class="far fa-edit"></i></span> </a>
                                 </div>
                                 <div class="widget-description">
                                     <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but
@@ -163,7 +164,8 @@
                                         you
                                         need to be sure there isn't anything embarrassing hidden in the middle of text.
                                     </p>
-                                    <a class="btn btn-outline-light" href="#" role="button">Edit Section</a>
+                                    <a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="modal"
+                                        data-bs-target="#add-new-widget">Edit Section</a>
 
                                 </div>
 
@@ -171,7 +173,8 @@
                             <div class="widget-2">
                                 <h1 class="border-bottom border-top">Heartset</h1>
                                 <div class="edit-widget-btn">
-                                    <a href="#"> <span><i class="far fa-edit"></i></span> </a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#widget-title"> <span><i
+                                                class="far fa-edit"></i></span> </a>
                                 </div>
 
                                 <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but the
@@ -185,7 +188,8 @@
                             <div class="widget-3">
                                 <h1 class="border-bottom border-top">Soulet</h1>
                                 <div class="edit-widget-btn">
-                                    <a href="#"> <span><i class="far fa-edit"></i></span> </a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#widget-title"> <span><i
+                                                class="far fa-edit"></i></span> </a>
                                 </div>
 
                                 <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but the
@@ -218,6 +222,75 @@
 
     </div>
 </body>
+
+<!-- Edit Widget Modal -->
+<div class="modal fade" id="widget-title" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="widget-titleLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="widget-titleLabel">MY IDENTITY INSPIRATION</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Title</label>
+                        <input type="text" class="form-control" id="widget-title" aria-describedby="titlelHelp"
+                            placeholder="Enter Title" value="MY IDENTITY INSPIRATION">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="widget-area-description" class="form-label">Description</label>
+                        <textarea class="form-control" id="widget-area-description" rows="7">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                        </textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Add new section Modal -->
+<div class="modal fade" id="add-new-widget" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="widget-titleLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="widget-titleLabel">Create New Widget</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Select Widget Type</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected disabled>Select from this list</option>
+                            <option value="1">Text</option>
+                            <option value="2">Image</option>
+                            <option value="3">Video</option>
+                            <option value="3">Pool</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="widget-area-description" class="form-label">Description</label>
+                        <textarea class="form-control" id="widget-area-description" rows="7">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                        </textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
