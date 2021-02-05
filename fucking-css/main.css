@@ -70,6 +70,13 @@ a {
     background-color: #242424 !important;
 }
 
+.post-recation-box .btn-link {
+    font-weight: 400;
+    color: #212529;
+    text-decoration: none;
+    line-height: 0.5;
+} 
+
 .login-btn-black-bg {
     background: #000;
     padding: 0.375rem 2.75rem 0.375rem 2.75rem;
@@ -349,13 +356,13 @@ a {
     color: #A93225;
 }
 
-body.modal-open .supreme-container {
+/* body.modal-open .supreme-container {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
-}
+} */
 
 .carousel-item {
     position: relative;
@@ -568,4 +575,165 @@ body.modal-open .supreme-container {
 
 .edit-widget-btn a:hover {
     color: #A93225;
+}
+
+.post-box-mother-div .card {
+    width: calc(100% - 2%);
+    border-radius: 0;
+}
+
+.iq-card-block.iq-card-height {
+    height: calc(100% - 15px);
+}
+
+.iq-card-block.iq-card-stretch {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.iq-card-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.iq-card {
+    background: var(--iq-white);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(44 101 144 / 10%);
+    box-shadow: 0px 0px 20px 0px rgb(44 101 144 / 10%);
+}
+
+.iq-card .iq-card-header {
+    padding: 0 20px;
+    min-height: 60px;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    border-bottom: 1px solid var(--iq-border-light);
+}
+
+.iq-card .iq-card-header .iq-header-title {
+    display: inline-block;
+    align-self: center !important;
+}
+
+.iq-card .iq-card-header .iq-header-title .card-title {
+    margin-bottom: 0;
+}
+
+.iq-card-body {
+    padding: 15px;
+}
+
+.avatar-60 {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 1.2rem;
+}
+
+div#post-modal-data .modal {
+    position: absolute;
+    height: auto;
+}
+
+div#post-modal-data .modal .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+}
+
+.iq-bg-primary {
+    background: #ffffff !important;
+    color: #808080 !important;
+    width: auto;
+    display: inline-flex;
+}
+
+.in-depth-post-meta .iq-bg-primary {
+    background: #ffffff !important;
+    color: #808080 !important;
+    width: 97%;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.iq-bg-primary img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.post-text .form-control {
+    border: none;
+    background: #F6F6F6;
+    padding: 14px;
+    border-radius: 0;
+}
+
+.dream-feed-user-profile-box .dreamfeed-start {
+    width: calc(100% - 2%);
+    border-radius: 0;
+}
+
+.post-opt-block img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.cata-sub-nav {
+    background: #eee;
+    padding: 20px 15px 20px;
+    margin: 0 37px;
+    /* Make this scrollable when needed */
+    overflow-x: auto;
+    /* We don't want vertical scrolling */
+    overflow-y: hidden;
+    /* Make an auto-hiding scroller for the 3 people using a IE */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* For WebKit implementations, provide inertia scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* We don't want internal inline elements to wrap */
+    white-space: nowrap;
+    /* Remove the default scrollbar for WebKit implementations */
+}
+.cata-sub-nav::-webkit-scrollbar {
+        display: none;
+    }
+.cata-sub-nav ul {
+    margin: 0;
+        display: flex;
+          -webkit-padding-start: 0px;
+}
+.cata-sub-nav li {
+    display: inline-table;
+    margin: 0 10px;
+        font-size: 16px;
+} 
+.arrow{
+  background: red;
+}
+.nav-prev {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 7px;
+    margin-top: -2px;
+}
+.nav-next {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 7px;
+    margin-top: -22px;
 }

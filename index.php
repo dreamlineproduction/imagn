@@ -7,7 +7,8 @@
     <title>Imagn</title>
     <link href="fucking-css/bootstrap.css" rel="stylesheet">
     <link href="fucking-css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="webfonts/stylesheet.css" type="text/css" charset="utf-8" />
+    <link href="fucking-css/responsive.css" rel="stylesheet">
+    
 
 
 
@@ -91,7 +92,7 @@
                 <!-- Post section start -->
                 <div class="col-md-7 p-4">
 
-                <?php include 'include/dreamfeed.php';?>
+                <?php include 'parts/dreamfeed.php';?>
 
 
 
@@ -115,7 +116,7 @@
 
     </section>
 
-
+<!-- 
     <section class="fixed-bottom-foot bottomMenu">
         <div id="bottomMenu">
             <div class="container-fluid">
@@ -137,7 +138,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     </div>
 </body>

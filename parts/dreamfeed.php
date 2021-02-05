@@ -41,21 +41,23 @@
 
                                     <div class="post-footer  p-4">
                                         <div class="row">
-                                            <div class="col-md-2">
+                                            <div class="col-md-2 post-recation-box">
                                                 <div class="like-section">
-                                                    <i class="far fa-thumbs-up"></i> 1.5K
+                                                <a class="btn btn-link" href="#" role="button"> <i class="far fa-thumbs-up"></i> 1.5K</a>
+                                               
+                                                   
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="comment-section">
-                                                    <i class="far fa-comment"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="far fa-comment"></i> 832 </a>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="share-section">
-                                                    <i class="fas fa-share"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="fas fa-share"></i> 832 </a>
                                                 </div>
                                             </div>
 
@@ -114,21 +116,23 @@
 
                                     <div class="post-footer  p-4">
                                         <div class="row">
-                                            <div class="col-md-2">
+                                            <div class="col-md-2 post-recation-box">
                                                 <div class="like-section">
-                                                    <i class="far fa-thumbs-up"></i> 1.5K
+                                                <a class="btn btn-link" href="#" role="button"> <i class="far fa-thumbs-up"></i> 1.5K</a>
+                                               
+                                                   
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="comment-section">
-                                                    <i class="far fa-comment"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="far fa-comment"></i> 832 </a>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="share-section">
-                                                    <i class="fas fa-share"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="fas fa-share"></i> 832 </a>
                                                 </div>
                                             </div>
 
@@ -136,6 +140,7 @@
 
 
                                     </div>
+
 
 
                                 </div>
@@ -182,21 +187,23 @@
 
                                     <div class="post-footer  p-4">
                                         <div class="row">
-                                            <div class="col-md-2">
+                                            <div class="col-md-2 post-recation-box">
                                                 <div class="like-section">
-                                                    <i class="far fa-thumbs-up"></i> 1.5K
+                                                <a class="btn btn-link" href="#" role="button"> <i class="far fa-thumbs-up"></i> 1.5K</a>
+                                               
+                                                   
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="comment-section">
-                                                    <i class="far fa-comment"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="far fa-comment"></i> 832 </a>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="share-section">
-                                                    <i class="fas fa-share"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="fas fa-share"></i> 832 </a>
                                                 </div>
                                             </div>
 
@@ -204,6 +211,7 @@
 
 
                                     </div>
+
 
 
                                 </div>
@@ -261,21 +269,23 @@
 
                                     <div class="post-footer  p-4">
                                         <div class="row">
-                                            <div class="col-md-2">
+                                            <div class="col-md-2 post-recation-box">
                                                 <div class="like-section">
-                                                    <i class="far fa-thumbs-up"></i> 1.5K
+                                                <a class="btn btn-link" href="#" role="button"> <i class="far fa-thumbs-up"></i> 1.5K</a>
+                                               
+                                                   
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="comment-section">
-                                                    <i class="far fa-comment"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="far fa-comment"></i> 832 </a>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="share-section">
-                                                    <i class="fas fa-share"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="fas fa-share"></i> 832 </a>
                                                 </div>
                                             </div>
 
@@ -283,6 +293,7 @@
 
 
                                     </div>
+
 
 
                                 </div>
@@ -338,25 +349,25 @@
 
                                     </div>
 
-
-
                                     <div class="post-footer  p-4">
                                         <div class="row">
-                                            <div class="col-md-2">
+                                            <div class="col-md-2 post-recation-box">
                                                 <div class="like-section">
-                                                    <i class="far fa-thumbs-up"></i> 1.5K
+                                                <a class="btn btn-link" href="#" role="button"> <i class="far fa-thumbs-up"></i> 1.5K</a>
+                                               
+                                                   
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="comment-section">
-                                                    <i class="far fa-comment"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="far fa-comment"></i> 832 </a>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-md-2  post-recation-box">
                                                 <div class="share-section">
-                                                    <i class="fas fa-share"></i> 832
+                                                <a class="btn btn-link" href="#" role="button">  <i class="fas fa-share"></i> 832 </a>
                                                 </div>
                                             </div>
 

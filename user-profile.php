@@ -7,6 +7,7 @@
     <title>Dev Chatterjee - Imagn</title>
     <link href="fucking-css/bootstrap.css" rel="stylesheet">
     <link href="fucking-css/main.css" rel="stylesheet">
+    <link href="fucking-css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="webfonts/stylesheet.css" type="text/css" charset="utf-8" />
 
 
@@ -15,7 +16,7 @@
 
 <body>
 
-    <?php include 'include/navbar2.php';?>
+    <?php include 'include/navbar1-after-login.php';?>
     <div class="supreme-container">
         <div class="container-fluid p-0">
             <div class="profile-head-image">
@@ -131,16 +132,25 @@
 
                                         </ul>
                                     </div>
-
-
-
-
-
-
-
-
                                 </div>
                             </div>
+
+
+<div class="post-box-mother-div">
+
+<?php include 'parts/post-box.php';?>
+
+
+</div>
+
+<div class="dream-feed-user-profile-box">
+
+<?php include 'parts/dreamfeed.php';?>
+
+
+</div>
+
+
 
                         </div>
                     </div>
@@ -295,5 +305,6 @@
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script defer src="fucking-js/bootstrap.bundle.js"></script>
+<script defer src="fucking-js/custom.js"></script>
 <script defer src="fucking-js/all.js"></script>
 <script defer src="fucking-js/app.js"></script>
