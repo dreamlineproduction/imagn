@@ -24,6 +24,10 @@
 		$(".cata-sub-nav").animate( { scrollLeft: '-=460' }, 200);
 	});
 
+	 $(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
 	
 
 })(jQuery);
+

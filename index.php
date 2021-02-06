@@ -90,7 +90,7 @@
 
 
                 <!-- Post section start -->
-                <div class="col-md-7 p-4">
+                <div class="col-md-8 p-4">
 
                 <?php include 'parts/dreamfeed.php';?>
 
@@ -144,7 +144,15 @@
 </body>
 
 </html>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script defer src="fucking-js/bootstrap.bundle.js"></script>
 <script defer src="fucking-js/all.js"></script>
 <script defer src="fucking-js/app.js"></script>
+
+<script type="text/javascript">
+ $(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
+</script>

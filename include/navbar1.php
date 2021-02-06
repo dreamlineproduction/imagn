@@ -12,8 +12,8 @@
         </span></div>
             <div class="d-flex justify-content-end">
 
-                <a class="btn text-white theme-red-btn" href="#" role="button" data-bs-toggle="modal" data-bs-target="#joinnow">Join The Conversation</a>
-                <a class="btn btn-outline-light text-white login-btn-black-bg ms-3" href="#" role="button">Login</a>
+                <a class="btn text-white theme-red-btn"  role="button" data-bs-toggle="modal" data-bs-target="#joinnow">Join The Conversation</a>
+                <a class="btn btn-outline-light text-white login-btn-black-bg ms-3" role="button" data-bs-toggle="modal" data-bs-target="#login">Login</a>
 
             </div>
 
@@ -43,6 +43,58 @@
 <a class="btn text-white theme-red-btn" href="#" role="button">I assure you. I'm civilized.</a>
                 <a class="btn btn-outline-light text-white login-btn-black-bg ms-3" href="#" role="button" data-bs-dismiss="modal">Fuck it. I'm uncivilized.</a>
 </div>
+
+
+      </div>
+  
+    </div>
+  </div>
+</div>
+
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg fuck-yourself-modal">
+    <div class="modal-content">
+        <div class="join-close-icon">
+    <i class="far fa-times-circle" data-bs-dismiss="modal"></i>
+    </div>
+   
+      <div class="modal-body text-white">
+     <h4>Login to Access!</h4>
+<div class="login-modal-form my-5">
+     <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Remember me.</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Login</button>
+  <button type="button" class="btn btn-link float-end">Forget Password?</button>
+</form>
+
+<div class="row">
+<div class="col-md-12 text-center">
+<hr>
+<p class="my-4">New to this site? Signup here</p>
+
+</div>
+
+
+</div>
+
+
+</div>
+
 
 
       </div>
