@@ -7,13 +7,24 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-            <div class="d-flex justify-content-start"> <span class="navbar-text">
+            <div class="d-flex justify-content-start  d-none d-sm-block"> <span class="navbar-text">
             A World Without Borders
         </span></div>
             <div class="d-flex justify-content-end">
 
-                <a class="btn text-white theme-red-btn" href="#" role="button" data-bs-toggle="modal" data-bs-target="#joinnow">Join The Conversation</a>
-                <a class="btn btn-outline-light text-white login-btn-black-bg ms-3" href="#" role="button">Login</a>
+            <div class="dropdown">
+
+  
+                        <img class="user-drop" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" src="fucking-images/dev-chatterjee-seo-expert.jpg"  class="img-fluid img-thumbnail" alt="...">
+
+                
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
 
             </div>
 
@@ -24,29 +35,3 @@
         </div>
     </nav>
 
-
-    <!-- Joing Now Modal -->
-    <div class="modal fade" id="joinnow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="joinnowLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg fuck-yourself-modal">
-    <div class="modal-content">
-        <div class="join-close-icon">
-    <i class="far fa-times-circle" data-bs-dismiss="modal"></i>
-    </div>
-   
-      <div class="modal-body text-center text-white">
-     <h1>GO FUCK YOURSELF!</h1>
-
-<p class="p-5">So you want to "join the conversation"? But are you really sophisticated, nuanced and civilized enough to join this complex, high-level conversation on the politics and economics of Genius and how to go about authentic individual and global wealth creation amidst all the daunting challenges and demands facing 21st Century democratic prosperity? Or are you part of the keyboard-warrior hate-filled cancel-culture masses? We encourage criticalthinking free speech and we do not care about political correctness. However, the foundation of a world-without-borders centered on beauty, meaning and peace requires that your freedom to swing your fist ends where someone else's nose begins. So are you civilized?</p>
-
-<div class="btn-join-group my-5">
-
-<a class="btn text-white theme-red-btn" href="#" role="button">I assure you. I'm civilized.</a>
-                <a class="btn btn-outline-light text-white login-btn-black-bg ms-3" href="#" role="button" data-bs-dismiss="modal">Fuck it. I'm uncivilized.</a>
-</div>
-
-
-      </div>
-  
-    </div>
-  </div>
-</div>

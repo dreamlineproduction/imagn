@@ -1,34 +1,43 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light-black text-white">
-
-
-<div class="container">
-            <a class="navbar-brand text-white" href="#">
-            <h5>Supreme Cultural Council</h5>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-           
-            <div class="main-nav-area">
-
-            <ul class="list-group list-group-flush">
-  <a href="#"> <li class="list-group-item active">Dream Feed</li></a>
-  <a href="#"><li class="list-group-item">Videos</li></a>
-  <a href="#"><li class="list-group-item">Photos</li></a>
-  <a href="#"><li class="list-group-item">Poll</li></a>
-  <a href="#"><li class="list-group-item">Events</li></a>
-  <a href="#"><li class="list-group-item">Podcasts</li></a>
-  <a href="#"><li class="list-group-item">Audio</li></a>
-  <a href="#"><li class="list-group-item"  data-toggle="tooltip" data-bs-placement="bottom" title="Timeline"><i class="fas fa-history"></i></li></a>
-</ul>
-            </div>
-
-
-
-
-
-        </div>
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-light-black text-white">
+  <div class="container text-white">
+    <a class="navbar-brand" href="#"> <h5>Supreme Cultural Council</h5></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-ellipsis-h"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="main-nav-area  mx-auto">
+    <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Dream Feed</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Poll</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Podcasts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Audio</a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Timeline" aria-label="Timeline">
+          <a class="nav-link" href="#"><i class="fas fa-history"></i></a>
+        </li>
+       
+      </ul>
+</div>
+      
+    </div>
+  </div>
 </nav>
+
+
 

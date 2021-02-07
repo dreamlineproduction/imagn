@@ -3,16 +3,15 @@
             <a class="navbar-brand" href="index.php">
                 <img src="fucking-images/imagn_logo.png">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          
+          <i class="fas fa-cog  d-md-none d-sm-block" data-bs-toggle="modal" data-bs-target="#more-option">></i>
 
-            <div class="d-flex justify-content-start"> <span class="navbar-text">
+            <div class="d-flex justify-content-start d-none d-sm-block"> <span class="navbar-text">
             A World Without Borders
         </span></div>
-            <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end d-none d-sm-block">
 
-                <a class="btn text-white theme-red-btn"  role="button" data-bs-toggle="modal" data-bs-target="#joinnow">Join The Conversation</a>
+                <a class="btn text-white theme-red-btn "  role="button" data-bs-toggle="modal" data-bs-target="#joinnow">Join The Conversation</a>
                 <a class="btn btn-outline-light text-white login-btn-black-bg ms-3" role="button" data-bs-toggle="modal" data-bs-target="#login">Login</a>
 
             </div>
@@ -99,6 +98,83 @@
 
       </div>
   
+    </div>
+  </div>
+</div>
+
+<!-- More Option Modal -->
+<div class="modal fade" id="more-option" tabindex="-1" aria-labelledby="more-optionLabel" aria-hidden="true">
+  <div class="modal-dialog fuck-yourself-modal">
+    <div class="modal-content">
+     
+      <div class="join-close-icon">
+    <i class="far fa-times-circle" data-bs-dismiss="modal"></i>
+    </div>
+     
+      <div class="modal-body text-center text-white">
+      <h5>Supreme Cultural Council</h5>
+                    <div class="left-nav-logo-section margin-top-3">
+                        <img src="fucking-images/imagn-verti.svg" width="136" class="img-fluid">
+                        <div class="left-nav-title">
+                            <h5>Dreaming Of</h5>
+                            <h5>A New, New World</h5>
+                        </div>
+                    </div>
+
+                    <div class="left-navbar-hr"></div>
+
+                    <div class="left-nav-logo-section margin-top-3">
+                        <div class="super-admin-avatar"></div>
+
+                        <div class="left-nav-title">
+                        <a href="user-profile.php"> <div class="super-author-name">
+                              <h2 class="theme-red-font">Dev Chatterjee</h2></a>
+                                <small>Founder</small>
+                                <p>I Would Like To Apologize To Anyone I Have Not Yet Offended. Please Be Patient. I Will Get To You Shortly.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="left-navbar-hr"></div>
+
+                    <div class="left-nav-logo-section margin-top-3">
+                        <img src="fucking-images/passport-img.svg" width="153" class="img-fluid">
+
+
+                    </div>
+
+                    <div class="left-navbar-hr"></div>
+
+
+                    <div class="left-nav-active-stats-section margin-top-3">
+
+                        <div class="row">
+                            <div class="col-md-6 hr">
+                                <h1>26<small>k</small></h1>
+                                <p>ACTIVE MEMBERS</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h1>1.5<small>k</small></h1>
+                                <p>ONLINE</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="left-navbar-hr"></div>
+
+                    <div class="left-nav-footer-section margin-top-3">
+                        <a href="#"><span>About</span></a>
+                        <a href="#"><span>Terms & Condition</span></a>
+                        <a href="#"><span>Contact</span></a>
+
+
+                    </div>
+
+      </div>
+    
     </div>
   </div>
 </div>
