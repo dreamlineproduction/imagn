@@ -20,9 +20,10 @@
                 
 
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="#">My Profile</a></li>
+    <li><a class="dropdown-item" href="#">Account Settings</a></li>
+    <li><a class="dropdown-item" href="#">Help</a></li>
+    <li><a class="dropdown-item" href="#">Logout</a></li>
   </ul>
 </div>
 

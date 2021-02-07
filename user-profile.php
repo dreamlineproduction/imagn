@@ -193,8 +193,7 @@
                                         you
                                         need to be sure there isn't anything embarrassing hidden in the middle of text.
                                     </p>
-                                    <a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="modal"
-                                        data-bs-target="#add-new-widget">Edit Section</a>
+                                   
 
                                 </div>
 
@@ -212,7 +211,7 @@
                                     don't
                                     look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
                                     need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                <a class="btn btn-outline-light" href="#" role="button">Edit Section</a>
+                                
                             </div>
                             <div class="widget-3">
                                 <h1 class="border-bottom border-top">Soulet</h1>
@@ -227,10 +226,14 @@
                                     don't
                                     look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
                                     need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                <a class="btn btn-outline-light" href="#" role="button">Edit Section</a>
+                                
                             </div>
 
-                            <div class="left-nav-footer-section margin-top-3 text-center  border-top">
+<div class="text center my-5">
+<a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="modal" data-bs-target="#add-new-widget">Add new section</a>
+</div>
+
+                            <div class="left-nav-footer-section margin-top-3 text-center">
                                 <a href="#"><span>About</span></a>
                                 <a href="#"><span>Terms &amp; Condition</span></a>
                                 <a href="#"><span>Contact</span></a>
