@@ -9,12 +9,13 @@
     <link href="fucking-css/bootstrap.css" rel="stylesheet">
     <link href="fucking-css/main.css" rel="stylesheet">
     <link href="fucking-css/responsive.css" rel="stylesheet">
+    <link href="webfonts/stylesheet.css" rel="stylesheet">
     <link href="fucking-css/uplo.css" rel="stylesheet">
     <link rel="stylesheet" href="webfonts/stylesheet.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="https://unpkg.com/dropzone/dist/dropzone.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="https://unpkg.com/cropperjs/dist/cropper.css" type="text/css" charset="utf-8" />
 
- 
+
 
 
 
@@ -47,10 +48,12 @@
             <div class="profile-card-top-section">
                 <div class="row">
                     <div class="user-profile-avatar d-flex justify-content-center">
-                        <div class="profile-img-src" style="background-image: url(fucking-images/dev-chatterjee-seo-expert.jpg);"></div>
-                        <div type="button" class="button upload-user-img" data-bs-toggle="modal" data-bs-target="#upload-avatar"><i class="fas fa-upload"></i></div>
-                            
-                           
+                        <div class="profile-img-src"
+                            style="background-image: url(fucking-images/dev-chatterjee-seo-expert.jpg);"></div>
+                        <div type="button" class="button upload-user-img" data-bs-toggle="modal"
+                            data-bs-target="#upload-avatar"><i class="fas fa-upload"></i></div>
+
+
 
 
                     </div>
@@ -61,7 +64,7 @@
                         <div class="col-md-4 user-top-left-side-widget border-end px-4">
                             <h3>My Money, My Income</h3>
                             <div class="edit-widget-btn-1 left-side-widget">
-                            <i class="far fa-edit" data-bs-toggle="modal" data-bs-target="#top-widget1"></i>
+                                <i class="far fa-edit" data-bs-toggle="modal" data-bs-target="#top-widget1"></i>
                             </div>
                             <h5>Inbound Medic <small>(Founder)</small></h5>
                             <a href="www.inboundmedic.com" target="_blank"><i class="fas fa-external-link-alt"></i>
@@ -69,15 +72,14 @@
                             <p>I help elite medical practices get more new patients through Google.</p>
                             <a class="btn btn-primary user-top-left-side-widget-btn" href="#" role="button">Schedule A
                                 Strategy Session</a>
-                                
+
                         </div>
 
                         <div class="col-md-4 user-top-center-side-widget border-end text-center px-4">
                             <h3>Dev Chatterjee</h3>
                             <div class="edit-widget-btn-1 left-side-widget">
-                            <i class="far fa-edit" data-bs-toggle="modal" data-bs-target="#personal-info"></i>
-                            </div
-                            <span>Artist</span> | <span>Entrepreneur</span> | <span>Fool
+                                <i class="far fa-edit" data-bs-toggle="modal" data-bs-target="#personal-info"></i>
+                            </div <span>Artist</span> | <span>Entrepreneur</span> | <span>Fool
                                 Creating The Next Social Network
                                 And Pissing Off The Entire World</span>
 
@@ -95,7 +97,7 @@
                         <div class="col-md-4 user-top-left-side-widget px-4">
                             <h3>My Meaning, My Impact</h3>
                             <div class="edit-widget-btn-1 left-side-widget">
-                            <i class="far fa-edit" data-bs-toggle="modal" data-bs-target="#top-widget1"></i>
+                                <i class="far fa-edit" data-bs-toggle="modal" data-bs-target="#top-widget1"></i>
                             </div>
                             <h5>Imagn.World <small>(Founder)</small></h5>
                             <a href="www.imagn.world" target="_blank"><i class="fas fa-external-link-alt"></i>
@@ -155,19 +157,19 @@
                             </div>
 
 
-<div class="post-box-mother-div">
+                            <div class="post-box-mother-div">
 
-<?php include 'parts/post-box.php';?>
-
-
-</div>
-
-<div class="dream-feed-user-profile-box">
-
-<?php include 'parts/dreamfeed.php';?>
+                                <?php include 'parts/post-box.php';?>
 
 
-</div>
+                            </div>
+
+                            <div class="dream-feed-user-profile-box">
+
+                                <?php include 'parts/dreamfeed.php';?>
+
+
+                            </div>
 
 
 
@@ -193,7 +195,7 @@
                                         you
                                         need to be sure there isn't anything embarrassing hidden in the middle of text.
                                     </p>
-                                   
+
 
                                 </div>
 
@@ -211,7 +213,7 @@
                                     don't
                                     look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
                                     need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                
+
                             </div>
                             <div class="widget-3">
                                 <h1 class="border-bottom border-top">Soulet</h1>
@@ -226,12 +228,13 @@
                                     don't
                                     look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
                                     need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                
+
                             </div>
 
-<div class="text center my-5">
-<a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="modal" data-bs-target="#add-new-widget">Add new section</a>
-</div>
+                            <div class="text center my-5">
+                                <a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="modal"
+                                    data-bs-target="#add-new-widget">Add new section</a>
+                            </div>
 
                             <div class="left-nav-footer-section margin-top-3 text-center">
                                 <a href="#"><span>About</span></a>
@@ -254,95 +257,95 @@
 
     </div>
 </body>
+
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script  src="fucking-js/bootstrap.bundle.js"></script>
- 
+<script src="fucking-js/bootstrap.bundle.js"></script>
+
 <script src="fucking-js/custom.js"></script>
-<script  src="fucking-js/all.js"></script>
-<script  src="fucking-js/app.js"></script>
-<script  src="fucking-js/tag-input.js"></script>
-<script  src="https://unpkg.com/dropzone"></script>
-<script  src="https://unpkg.com/cropperjs"></script>
+<script src="fucking-js/all.js"></script>
+<script src="fucking-js/app.js"></script>
+<script src="fucking-js/tag-input.js"></script>
+<script src="https://unpkg.com/dropzone"></script>
+<script src="https://unpkg.com/cropperjs"></script>
 
 <script>
 Dropzone.options.myDropzone = {
-	url: '/post',
-	transformFile: function(file, done) {
+    url: '/post',
+    transformFile: function(file, done) {
 
-		var myDropZone = this;
+        var myDropZone = this;
 
-		// Create the image editor overlay
-		var editor = document.createElement('div');
-		editor.style.position = 'fixed';
-		editor.style.left = 0;
-		editor.style.right = 0;
-		editor.style.top = 0;
-		editor.style.bottom = 0;
-		editor.style.zIndex = 9999;
-		editor.style.backgroundColor = '#000';
+        // Create the image editor overlay
+        var editor = document.createElement('div');
+        editor.style.position = 'fixed';
+        editor.style.left = 0;
+        editor.style.right = 0;
+        editor.style.top = 0;
+        editor.style.bottom = 0;
+        editor.style.zIndex = 9999;
+        editor.style.backgroundColor = '#000';
 
-		// Create the confirm button
-		var confirm = document.createElement('button');
-		confirm.style.position = 'absolute';
-		confirm.style.background = '#A93225';
-		confirm.style.right = '10px';
-		confirm.style.padding = '15px 40px 15px 40px';
-		confirm.style.color = '#fff';
-		confirm.style.border = '0';
-		confirm.style.top = '10px';
-		confirm.style.zIndex = 9999;
-		confirm.textContent = 'Upload';
-		confirm.addEventListener('click', function() {
+        // Create the confirm button
+        var confirm = document.createElement('button');
+        confirm.style.position = 'absolute';
+        confirm.style.background = '#A93225';
+        confirm.style.right = '10px';
+        confirm.style.padding = '15px 40px 15px 40px';
+        confirm.style.color = '#fff';
+        confirm.style.border = '0';
+        confirm.style.top = '10px';
+        confirm.style.zIndex = 9999;
+        confirm.textContent = 'Upload';
+        confirm.addEventListener('click', function() {
 
-			// Get the canvas with image data from Cropper.js
-			var canvas = cropper.getCroppedCanvas({
-				width: 256,
-				height: 256
-			});
+            // Get the canvas with image data from Cropper.js
+            var canvas = cropper.getCroppedCanvas({
+                width: 256,
+                height: 256
+            });
 
-			// Turn the canvas into a Blob (file object without a name)
-			canvas.toBlob(function(blob) {
+            // Turn the canvas into a Blob (file object without a name)
+            canvas.toBlob(function(blob) {
 
-				// Update the image thumbnail with the new image data
-				myDropZone.createThumbnail(
-					blob,
-					myDropZone.options.thumbnailWidth,
-					myDropZone.options.thumbnailHeight,
-					myDropZone.options.thumbnailMethod,
-					false, 
-					function(dataURL) {
+                // Update the image thumbnail with the new image data
+                myDropZone.createThumbnail(
+                    blob,
+                    myDropZone.options.thumbnailWidth,
+                    myDropZone.options.thumbnailHeight,
+                    myDropZone.options.thumbnailMethod,
+                    false,
+                    function(dataURL) {
 
-						// Update the Dropzone file thumbnail
-						myDropZone.emit('thumbnail', file, dataURL);
+                        // Update the Dropzone file thumbnail
+                        myDropZone.emit('thumbnail', file, dataURL);
 
-						// Return modified file to dropzone
-						done(blob);
-					}
-				);
+                        // Return modified file to dropzone
+                        done(blob);
+                    }
+                );
 
-			});
+            });
 
-			// Remove the editor from view
-			editor.parentNode.removeChild(editor);
+            // Remove the editor from view
+            editor.parentNode.removeChild(editor);
 
-		});
-		editor.appendChild(confirm);
+        });
+        editor.appendChild(confirm);
 
-		// Load the image
-		var image = new Image();
-		image.src = URL.createObjectURL(file);
-		editor.appendChild(image);
+        // Load the image
+        var image = new Image();
+        image.src = URL.createObjectURL(file);
+        editor.appendChild(image);
 
-		// Append the editor to the page
-		document.body.appendChild(editor);
+        // Append the editor to the page
+        document.body.appendChild(editor);
 
-		// Create Cropper.js and pass image
-		var cropper = new Cropper(image, {
-			aspectRatio: 1
-		});
+        // Create Cropper.js and pass image
+        var cropper = new Cropper(image, {
+            aspectRatio: 1
+        });
 
-	}
+    }
 };
-
 </script>

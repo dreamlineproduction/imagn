@@ -8,54 +8,54 @@
     <link href="fucking-css/bootstrap.css" rel="stylesheet">
     <link href="fucking-css/main.css" rel="stylesheet">
     <link href="fucking-css/responsive.css" rel="stylesheet">
-    
+    <link href="webfonts/stylesheet.css" rel="stylesheet">
+    <link href="font-icon/css/icon-font.css" rel="stylesheet">
+
 
 
 
 </head>
 
 <body>
-<?php include 'include/navbar1.php';?>
-<?php include 'include/navbar2.php';?>
-   <div class="supreme-container">
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 left-nav-bg text-center  d-none d-sm-block">
-                <?php include 'parts/left-side-bar.php';?>
+    <?php include 'include/navbar1.php';?>
+    <?php include 'include/navbar2.php';?>
+    <div class="supreme-container">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 left-nav-bg text-center  d-none d-sm-block">
+                        <?php include 'parts/left-side-bar.php';?>
+                    </div>
+
+
+
+
+                    <!-- Post section start -->
+                    <div class="col-md-8 p-4">
+
+                        <?php include 'parts/dreamfeed.php';?>
+
+
+
+                    </div>
+
+
+                    <!-- Post section end -->
+
+
+
+
+
+
                 </div>
-
-
-
-
-                <!-- Post section start -->
-                <div class="col-md-8 p-4">
-
-                <?php include 'parts/dreamfeed.php';?>
-
-
-
-                </div>
-
-
-                <!-- Post section end -->
-
-
-                <div class="col-md-2">
-
-                </div>
-
 
 
             </div>
 
 
-        </div>
+        </section>
 
-
-    </section>
-
-<!-- 
+        <!-- 
     <section class="fixed-bottom-foot bottomMenu">
         <div id="bottomMenu">
             <div class="container-fluid">
@@ -91,7 +91,9 @@
 <script defer src="fucking-js/app.js"></script>
 
 <script type="text/javascript">
- $(document).ready(function() {
-    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+$(document).ready(function() {
+    $("body").tooltip({
+        selector: '[data-toggle=tooltip]'
+    });
 });
 </script>
