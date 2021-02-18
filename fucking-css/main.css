@@ -669,7 +669,7 @@ a {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.6s ease-in-out;
-    height: 400px;
+    height: 600px;
 }
 
 .user-drop {
@@ -689,7 +689,6 @@ a {
     background: #fff;
     height: auto;
     position: relative;
-    width: 1320px;
     margin: auto;
     bottom: 50px;
     padding: 15px;
@@ -730,7 +729,7 @@ a {
 
 .user-top-left-side-widget p {
     margin-top: 20px;
-    font-weight: 300;
+    font-weight: 200;
     margin-bottom: 20px;
 }
 
@@ -1149,4 +1148,25 @@ div#post-modal-data .modal .modal-dialog {
     position: absolute;
     right: 7px;
     margin-top: -22px;
+}
+
+.user-drop-menu .dropdown {
+    float: right;
+}
+
+.dreem-feed-btn {
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 40px;
+    padding: 10px 35px;
+}
+
+.toggle-icon {
+    font-size: 25px;
+    color: #fff;
+    margin-left: 24px;
+}
+
+.toggle-icon:hover {
+    color: #A93225;
 }
